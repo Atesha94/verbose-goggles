@@ -1,6 +1,8 @@
-# Tempo: interval timer (HIIT, Tabata, EMOM, AMRAP, custom)
+# Ronda: interval timer (HIIT, Tabata, EMOM, AMRAP, custom)
 
-Tempo is split into two parts.
+> The app is called **Ronda**. Folder, module and code names (`tempo-health`, `TempoCore`, `app.tempo.core`) still use the working name Tempo; only user-facing text and app IDs have been changed.
+
+Ronda is split into two parts.
 
 | Part | Where | What |
 |------|-------|------|
@@ -42,7 +44,7 @@ cd native/ios/TempoCore && swift test            # requires macOS/Xcode
    ```
 5. Build a development build: `npx expo prebuild && eas build --profile development`.
 6. **watchOS:** in Xcode, File → New → Target → *Watch App for iOS App*, then add the files from `native/ios/TempoWatch Watch App/` and the local package `native/ios/TempoCore`. Enable the HealthKit capability on the watch target.
-7. **Wear OS:** open `native/android` in Android Studio and run `wear`. `applicationId` must match the phone app (`app.tempo.timer`), and both must be signed with the same key.
+7. **Wear OS:** open `native/android` in Android Studio and run `wear`. `applicationId` must match the phone app (`app.ronda.timer`), and both must be signed with the same key.
 
 ## Limitations and paid accounts
 

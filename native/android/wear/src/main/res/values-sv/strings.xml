@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tempo</string>
+    <string name="app_name">Ronda</string>
     <string name="channel_workout">Pågående pass</string>
     <string name="ongoing_status">Pass pågår</string>
     <string name="phase_warmup">Uppvärmning</string>

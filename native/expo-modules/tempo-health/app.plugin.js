@@ -4,8 +4,8 @@
  */
 const { withEntitlementsPlist, withInfoPlist, withAndroidManifest } = require('@expo/config-plugins');
 
-const HEALTH_SHARE = 'Tempo reads your heart rate to show live heart-rate zones during workouts. Your data stays on your devices.';
-const HEALTH_UPDATE = 'Tempo saves finished workouts, heart rate and active calories to Apple Health.';
+const HEALTH_SHARE = 'Ronda reads your heart rate to show live heart-rate zones during workouts. Your data stays on your devices.';
+const HEALTH_UPDATE = 'Ronda saves finished workouts, heart rate and active calories to Apple Health.';
 
 const ANDROID_PERMISSIONS = [
   'android.permission.health.READ_HEART_RATE',

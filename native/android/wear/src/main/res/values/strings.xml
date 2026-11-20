@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tempo</string>
+    <string name="app_name">Ronda</string>
     <string name="channel_workout">Active workout</string>
     <string name="ongoing_status">Workout in progress</string>
     <string name="phase_warmup">Warm-up</string>

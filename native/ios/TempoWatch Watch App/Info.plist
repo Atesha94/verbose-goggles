@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Tempo</string>
+	<string>Ronda</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleLocalizations</key>
@@ -11,14 +11,14 @@
 	<key>WKApplication</key>
 	<true/>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>app.tempo.timer</string>
+	<string>app.ronda.timer</string>
 	<key>WKRunsIndependentlyOfCompanionApp</key>
 	<true/>
 	<key>WKBackgroundModes</key>
 	<array><string>workout-processing</string></array>
 	<key>NSHealthShareUsageDescription</key>
-	<string>Tempo reads your heart rate to show live heart-rate zones during workouts. Your data stays on your devices.</string>
+	<string>Ronda reads your heart rate to show live heart-rate zones during workouts. Your data stays on your devices.</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>Tempo saves finished workouts, heart rate and active calories to Apple Health so you can see them with the rest of your activity.</string>
+	<string>Ronda saves finished workouts, heart rate and active calories to Apple Health so you can see them with the rest of your activity.</string>
 </dict>
 </plist>

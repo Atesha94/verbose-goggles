@@ -62,7 +62,7 @@ public class TempoHealthModule: Module {
                                                 quantity: HKQuantity(unit: bpmUnit, doubleValue: Double(s.bpm)), start: d, end: d))
             }
             if !samples.isEmpty { try await builder.addSamples(samples) }
-            try await builder.addMetadata([HKMetadataKeyWorkoutBrandName: "Tempo", "TempoSessionId": w.id])
+            try await builder.addMetadata([HKMetadataKeyWorkoutBrandName: "Ronda", "TempoSessionId": w.id])
             try await builder.endCollection(at: end)
             let workout = try await builder.finishWorkout()
             return workout?.uuid.uuidString ?? ""

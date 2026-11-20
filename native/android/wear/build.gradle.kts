@@ -10,7 +10,7 @@ android {
     compileSdk = 35
     defaultConfig {
         // Must match the phone app's applicationId so the Data Layer pairs them.
-        applicationId = "app.tempo.timer"
+        applicationId = "app.ronda.timer"
         minSdk = 30
         targetSdk = 35
         versionCode = 1
