@@ -16,3 +16,24 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+local.properties
+
+# Xcode / Swift
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Secrets — never commit
+*.jks
+*.keystore
+agconnect-services.json
+google-services.json
+GoogleService-Info.plist
+.env
+.env.*

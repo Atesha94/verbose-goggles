@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ronda</string>
+    <string name="channel_workout">Pågående pass</string>
+    <string name="ongoing_status">Pass pågår</string>
+    <string name="phase_warmup">Uppvärmning</string>
+    <string name="phase_work">Arbete</string>
+    <string name="phase_rest">Vila</string>
+    <string name="phase_set_rest">Setvila</string>
+    <string name="phase_cooldown">Nedvarvning</string>
+    <string name="round_of">Runda %1$d/%2$d</string>
+    <string name="set_of">Set %1$d/%2$d</string>
+    <string name="amrap_tap">+1 runda (%1$d)</string>
+    <string name="a11y_pause">Pausa</string>
+    <string name="a11y_resume">Fortsätt</string>
+    <string name="a11y_skip">Hoppa över fas</string>
+    <string name="a11y_back">Föregående fas</string>
+    <string name="a11y_stop">Avsluta passet</string>
+    <string name="a11y_time_left">%1$d sekunder kvar</string>
+    <string name="a11y_heart_rate">Puls %1$d slag per minut</string>
+    <string name="perm_rationale">Tillåt pulsåtkomst för att se pulszoner live. Timern fungerar ändå.</string>
+</resources>

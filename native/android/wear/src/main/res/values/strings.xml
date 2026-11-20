@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ronda</string>
+    <string name="channel_workout">Active workout</string>
+    <string name="ongoing_status">Workout in progress</string>
+    <string name="phase_warmup">Warm-up</string>
+    <string name="phase_work">Work</string>
+    <string name="phase_rest">Rest</string>
+    <string name="phase_set_rest">Set rest</string>
+    <string name="phase_cooldown">Cool-down</string>
+    <string name="round_of">Round %1$d/%2$d</string>
+    <string name="set_of">Set %1$d/%2$d</string>
+    <string name="amrap_tap">+1 round (%1$d)</string>
+    <string name="a11y_pause">Pause</string>
+    <string name="a11y_resume">Resume</string>
+    <string name="a11y_skip">Skip phase</string>
+    <string name="a11y_back">Previous phase</string>
+    <string name="a11y_stop">End workout</string>
+    <string name="a11y_time_left">%1$d seconds left</string>
+    <string name="a11y_heart_rate">Heart rate %1$d beats per minute</string>
+    <string name="perm_rationale">Allow heart-rate access to see live zones. The timer works without it.</string>
+</resources>

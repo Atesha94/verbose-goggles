@@ -1,0 +1,2 @@
+-keep class app.tempo.wear.sync.** { *; }
+-keepclassmembers class app.tempo.core.** { *; }
